@@ -1,2 +1,23 @@
 import numpy  as np
 import pandas as pd
+
+git clone <Git repository clone URL from Git server>
+git status
+git add <filename with extension>
+git commit -m <Your revision message for the code edit>
+git push
+
+# Process Workflow for an organization
+# Run it everyday as the first task before resuming your work to get all the updates from the teammates 
+
+git pull
+
+# Any of the below commands add all the content from your local repository ready to be publsihed
+# Keep issuing the below command every few hours
+
+git add -A
+git add .
+
+git commit - m <Your revision message for the code edit>
+
+git push
